@@ -5,30 +5,22 @@ public class Calculations
 	
 	public double add(double a, double b)
 	{
-		double sum;
-		sum = a + b;
-		return sum;
+		return a + b;
 	}
 	
 	public double sub(double a, double b)
 	{
-		double difference;
-		difference = a - b;
-		return difference;
+		return a - b;
 	}
 	
 	public double multiply(double a, double b)
 	{
-		double product;
-		product = a * b;
-		return product;
+		return a * b;
 	}
 	
-	public double quotient(double a, double b)
+	public double division(double a, double b)
 	{
-		double quotient;
-		quotient = a / b;
-		return quotient;
+		return a / b;
 	}
 	
 }
